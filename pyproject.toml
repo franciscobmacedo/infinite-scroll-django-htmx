@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "inifine-scroll-django-htmx"
+version = "0.1.0"
+description = ""
+authors = ["franciscobmacedo <franciscovcbm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.6"
+django-htmx = "^1.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -10,6 +10,7 @@ git clone https://github.com/franciscobmacedo/infinite-scroll-django-htmx
 cd infinite-scroll-django-htmx
 poetry install
 poetry shell
+python manage.py migrate
 ```
 
 ## Load fake data (optional)
@@ -17,7 +18,7 @@ poetry shell
 There's only one relevant model in `core/models.py`, called `Product`. In order to load some fake data, run the following command:
 
 ```console
-python manage.py load-fixtures.py
+python manage.py load-fixtures
 ```
 
 ## Run

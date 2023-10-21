@@ -1,6 +1,6 @@
 # Infinite scroll example with Django + htmx
 
-This is a simple example of infinite scroll with Django and htmx. It also uses the [django-htmx](https://django-htmx.readthedocs.io/en/latest/) package.
+This is a simple example of infinite scroll with Django and htmx. It also uses the [django-htmx](https://django-htmx.readthedocs.io/en/latest/) package. It's used as an example for this [blog post](https://fmacedo.com/posts/1-django-htmx-infinite-scroll/).
 
 
 ## Setup
